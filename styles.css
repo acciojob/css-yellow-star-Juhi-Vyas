@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+div{
+	position: relative;
+	width: 0px;
+	height: 0px;
+	border-bottom: 100px solid yellow;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+
+}
+
+div::after{
+	position: absolute;
+	border-top: 100px solid yellow;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	top: 30px;
+	left: -50px;
+	content: "";
+}
