@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-div{
+.star{
 	position: relative;
 	width: 0px;
 	height: 0px;
@@ -9,7 +9,7 @@ div{
 
 }
 
-div::after{
+.star::after{
 	position: absolute;
 	border-top: 100px solid yellow;
 	border-left: 50px solid transparent;
